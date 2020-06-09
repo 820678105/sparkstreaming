@@ -12,6 +12,7 @@ object WordCount{
     //local不能这么写，因为这代表一个线程进行工作中，但我们的实时流程序
     //需要有个线程去拉取数据，另一个线程去计算数据，所以至少有两个线程
     //才能完成处理
+    //上传集群则把master去掉
 
     val sparkConf: SparkConf = new SparkConf().setMaster("local[2]").setAppName("wc")
     //加载配置参数，设置批次提交任务的时间间隔
