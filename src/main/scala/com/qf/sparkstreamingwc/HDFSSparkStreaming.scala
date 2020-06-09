@@ -5,8 +5,10 @@ import org.apache.spark.streaming.dstream.DStream
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 /**
- * @Description 整合hdfs文件系统
- * @Author Zhang Kun
+ * @Description 整合hdfs文件系统。需要win7系统
+ * ReceiverInputDstream:过时的
+ * InputDstream：新的
+ *  @Author Zhang Kun
  * @Date 2020-06-09 11:33
  */
 object HDFSSparkStreaming {
