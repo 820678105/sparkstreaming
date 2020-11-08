@@ -29,6 +29,6 @@ object WordCount{
     ssc.start()
     //等待停止
     ssc.awaitTermination()
-	//
+	//修改
   }
 }
